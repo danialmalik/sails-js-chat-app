@@ -1,0 +1,27 @@
+<%- include('../partials/menu') %>
+<div class="chat-section">
+    <div class="ui container grid">
+
+        <!-- Members List Section -->
+        <div class="four wide column">
+            <%- include('../partials/chat-users.js') %>
+        </div>
+
+        <div class="twelve wide column">
+
+            <!-- Chat Messages -->
+            [ TODO chat-messages ]
+
+            <hr>
+
+            <!-- Chat Post -->
+            [ TODO chat-post ]
+
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    window.onload = function () {
+        loadUsers();
+    }
+</script>

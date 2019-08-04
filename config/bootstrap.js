@@ -10,6 +10,7 @@
  */
 
 module.exports.bootstrap = async function() {
+  sails.config.appName = 'Chat App';
 
   // By convention, this is a good place to set up fake data during development.
   //
