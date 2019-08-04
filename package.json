@@ -8,6 +8,7 @@
     "@sailshq/connect-redis": "^3.2.1",
     "@sailshq/lodash": "^3.10.3",
     "@sailshq/socket.io-redis": "^5.2.0",
+    "gravatar": "^1.8.0",
     "grunt": "1.0.4",
     "jsrender": "^1.0.4",
     "sails": "^1.2.3",

@@ -4,18 +4,18 @@
 
         <!-- Members List Section -->
         <div class="four wide column">
-            <%- include('../partials/chat-users.js') %>
+            <%- include('../partials/chat-users') %>
         </div>
 
         <div class="twelve wide column">
 
             <!-- Chat Messages -->
-            [ TODO chat-messages ]
+            <%- include('../partials/chat-messages') %>
 
             <hr>
 
             <!-- Chat Post -->
-            [ TODO chat-post ]
+            <%- include('../partials/chat-post') %>
 
         </div>
     </div>
@@ -23,5 +23,8 @@
 <script type="text/javascript">
     window.onload = function () {
         loadUsers();
+        loadMessages();
+        activateChat();
+        subsribeToMessages();
     }
 </script>

@@ -26,7 +26,28 @@ module.exports.routes = {
     action: 'render'
   },
   '/chat': {
-    view: 'pages/chatroom'
+    controller: 'ChatMessageController',
+    action: 'render'
+  },
+
+  '/postMessage': {
+    controller: 'ChatMessageController',
+    action: 'postMessage'
+  },
+
+  '/subChat': {
+    controller: 'ChatMessageController',
+    action: 'subscribeToChat'
+  },
+
+  '/auth/authenticate': {
+    controller: 'AuthController',
+    action: 'authenticate'
+  },
+
+  '/auth/logout': {
+    controller: 'AuthController',
+    action: 'logout'
   }
 
   /***************************************************************************
