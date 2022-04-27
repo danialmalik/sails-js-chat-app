@@ -10,7 +10,7 @@
     "@sailshq/socket.io-redis": "^5.2.0",
     "braces": "^3.0.2",
     "gravatar": "^1.8.0",
-    "grunt": "1.0.4",
+    "grunt": "1.5.2",
     "jsrender": "^1.0.4",
     "mem": "^5.1.1",
     "sails": "^1.2.3",
